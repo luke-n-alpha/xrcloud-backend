@@ -56,7 +56,7 @@ backup_dir() {
 }
 
 # Set home directory (홈 디렉토리 설정)
-BACKUP_DIR="/var/backups/"
+BACKUP_DIR="/mnt/xrcloud-prod-ko/backup"
 mkdir -p "$BACKUP_DIR"
 # backup
 mkdir -p "$BACKUP_DIR/haio-db"
@@ -67,8 +67,8 @@ LOG_FILE="$BACKUP_DIR/db_backup.log"
 # Record timestamp in log file (로그 파일에 시간 기록)
 echo "Backup started at $(date)" >> "$LOG_FILE"
 
-backup_dir "/data/postgres" "$BACKUP_DIR/haio-db"  # Haio backup
-backup_dir "/data/xrcloud-backend/postgres" "$BACKUP_DIR/xrcloud-db"  # XRCLOUD backup
+backup_dir "/app/haio/db" "$BACKUP_DIR/haio-db"  # Haio backup
+backup_dir "/app/xrcloud/db" "$BACKUP_DIR/xrcloud-db"  # XRCLOUD backup
 
 # Record completion in log file (로그 파일에 백업 완료 기록)
 echo "Backup completed at $(date)" >> "$LOG_FILE"
