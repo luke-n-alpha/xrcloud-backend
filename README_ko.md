@@ -1,4 +1,4 @@
-# XRCLOUD-BACKEND (한글) | [XRCLOUD-BACKEND (English)](./README.md)
+# XRCLOUD-BACKEND (한글) | [English](./README.md)
  * 본 프로젝트는 [BELIVVR](https://belivvr.com)에서 [hubs](https://github.com/Hubs-Foundation) 프로젝트를 fork하여 추가 기능을 개발하고, Hubs의 Room, Scene의 자원들을 회원제로 별도의 회원제 클라우드로 서비스를 제공하는 것을 목표 했던 XRCLOUD(https://xrcloud.app) 오픈소스 프로젝트의 서브 프로젝트 입니다.
  * XRCLOUD는 BELIVVR 에서 웹메타버스의 리소스를 웹 대시보드와 API로 제공하기 위한 클라우드 서비스입니다.
  * 2025년 2월, BELIVVR는 기업의 운영이 어려워 추가 개발을 진행하지 않으므로 오픈 소스(https://github.com/belivvr/xrcloud) 로 공개 합니다.

@@ -1,4 +1,4 @@
-# XRCLOUD-BACKEND (English) | [XRCLOUD-BACKEND (한글)](./README_ko.md)
+# XRCLOUD-BACKEND (English) | [한글](./README_ko.md)
 * This project is a sub-project of the XRCLOUD (https://xrcloud.app) open source project by [BELIVVR](https://belivvr.com), which aimed to develop additional features by forking the [hubs](https://github.com/Hubs-Foundation) project and provide Hubs' Room and Scene resources as a membership-based cloud service.
 * XRCLOUD is a cloud service by BELIVVR that provides web metaverse resources through web dashboard and APIs.
 * As of February 2025, BELIVVR has decided not to continue further development due to business challenges and has released it as open source (https://github.com/belivvr/xrcloud).

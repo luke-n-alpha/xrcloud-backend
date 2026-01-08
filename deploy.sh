@@ -7,6 +7,12 @@ cp "$ENV" .env
 
 . $ENV
 
+# Check if package-lock.json exists and run npm install if it doesn't
+if [ ! -f "package-lock.json" ]; then
+    echo "package-lock.json not found. Running npm install..."
+    npm install
+fi
+
 DOCKER_CONTAINER=$(basename "$PWD")
 DOCKER_IMAGE="$DOCKER_CONTAINER:$(date +%s)"
 

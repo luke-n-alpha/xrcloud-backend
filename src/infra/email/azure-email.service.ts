@@ -61,7 +61,7 @@ export class AzureEmailService {
             case AzureEmailService.Template.FIND_PASSWORD:
                 return {
                     subject: "[CNU Admin] Admin account created.",
-                    body: `${parameters.code}<br>위의 코드는 5분이 지나면 만료됩니다.`
+                    body: `${parameters.code}<br>The code above will expire in 5 minutes.`  
                 }            
             default:
                 throw new Error('Invalid templateId')
